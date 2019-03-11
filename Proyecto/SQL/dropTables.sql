@@ -1,0 +1,16 @@
+DROP TABLE Usuario;
+DROP TABLE Alumno;
+DROP TABLE Grupo;
+DROP TABLE Generacion;
+DROP TABLE Encuesta;
+DROP TABLE Reporte;
+DROP TABLE Estatus;
+DROP TABLE Ocupacion;
+DROP TABLE Rol;
+DROP TABLE Permiso;
+DROP TABLE AlumnoEncuesta;
+DROP TABLE AdministradorEncuesta;
+DROP TABLE AlumnoEstatus;
+DROP TABLE EstatusOcupacion;
+DROP TABLE RolPermiso;
+DROP TABLE UsuarioRol;
