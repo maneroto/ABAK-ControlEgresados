@@ -6,21 +6,21 @@ CREATE TABLE Usuario
 	amaterno varchar(50),
 	sexo varchar(10),
 	email varchar(100),
-	telefono numeric(13)
+	telefono varchar(13)
 );
 
 CREATE TABLE Alumno
 (
 	idusuario varchar(14) NOT NULL,
-	fechanacimiento smalldatetime,
-	telefonocasa numeric(13),
-	areainteres varchar(100),
+	fechanacimiento datetime,
+	telefonocasa varchar(13),
+	areaintres varchar(100),
 	encuesta bit
 );
 
 CREATE TABLE Grupo
 (
-	idgrupo numeric NOT NULL,
+	idgrupo numeric NOT NULL AUTO_INCREMENT,
 	nombre char(1),
 	especialidad varchar(30),
 	turno char(1),
@@ -30,9 +30,9 @@ CREATE TABLE Grupo
 
 CREATE TABLE Generacion
 (
-	idgeneracion numeric NOT NULL,
-	fechainicio smalldatetime,
-	fechafin smalldatetime
+	idgeneracion numeric NOT NULL AUTO_INCREMENT,
+	fechainicio datetime,
+	fechafin datetime
 );
 
 CREATE TABLE Encuesta
@@ -45,23 +45,23 @@ CREATE TABLE Encuesta
 
 CREATE TABLE Reporte
 (
-	idreporte numeric NOT NULL,
+	idreporte numeric NOT NULL AUTO_INCREMENT,
 	descripcion varchar(200),
 	archivo varchar(100),
-	fecha smalldatetime,
+	fecha datetime,
 	idusuario varchar(14) NOT NULL
 );
 
 CREATE TABLE Estatus
 (
-	idestatus numeric NOT NULL,
+	idestatus numeric NOT NULL AUTO_INCREMENT,
 	nombre varchar(25),
 	descripcion varchar(100)
 );
 
 CREATE TABLE Ocupacion
 (
-	idocupacion numeric NOT NULL,
+	idocupacion numeric NOT NULL AUTO_INCREMENT,
 	nombre varchar(35),
 	descripcion varchar(200),
 	areaocupacion varchar(100),
@@ -70,14 +70,14 @@ CREATE TABLE Ocupacion
 
 CREATE TABLE Rol
 (
-	idrol numeric NOT NULL,
+	idrol numeric NOT NULL AUTO_INCREMENT,
 	nombrerol varchar(25),
 	descripcion varchar(100)
 );
 
 CREATE TABLE Permiso
 (
-	idpermiso numeric NOT NULL,
+	idpermiso numeric NOT NULL AUTO_INCREMENT,
 	nombrepermiso varchar(25),
 	descripcion varchar(100)
 );
@@ -86,21 +86,22 @@ CREATE TABLE AlumnoEncuesta
 (
 	idusuario varchar(14) NOT NULL,
 	idencuesta char(8) NOT NULL,
-	fecha smalldatetime
+	fecha datetime
 );
 
 CREATE TABLE AdministradorEncuesta
 (
 	idusuario varchar(14) NOT NULL,
 	idencuesta char(8) NOT NULL,
-	fechapublicacion smalldatetime
+	fechapublicacion datetime,
+	fechabaja datetime
 );
 
 CREATE TABLE AlumnoEstatus
 (
 	idusuario varchar(14) NOT NULL,
 	idestatus numeric NOT NULL,
-	fechaasignacion smalldatetime
+	fechaasignacion datetime
 );
 
 CREATE TABLE EstatusOcupacion
@@ -114,12 +115,12 @@ CREATE TABLE RolPermiso
 (
 	idrol numeric NOT NULL,
 	idpermiso numeric NOT NULL,
-	fechaasignacion smalldatetime
+	fechaasignacion datetime
 );
 
 CREATE TABLE UsuarioRol
 (
 	idusuario varchar(14) NOT NULL,
 	idrol numeric NOT NULL,
-	fechaasignacion smalldatetime
+	fechaasignacion datetime
 );

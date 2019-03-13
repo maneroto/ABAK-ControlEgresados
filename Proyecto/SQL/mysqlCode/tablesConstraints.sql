@@ -1,7 +1,6 @@
 -- Llaves primarias
 
 ALTER TABLE Usuario ADD CONSTRAINT llaveusuario PRIMARY KEY (idusuario);
---ALTER TABLE Alumno ADD CONSTRAINT llaveusuario PRIMARY KEY (idsuario);
 ALTER TABLE Grupo ADD CONSTRAINT llavegrupo PRIMARY KEY (idgrupo);
 ALTER TABLE Generacion ADD CONSTRAINT llavegeneracion PRIMARY KEY (idgeneracion);
 ALTER TABLE Encuesta ADD CONSTRAINT llaveencuesta PRIMARY KEY (idencuesta);
@@ -10,12 +9,16 @@ ALTER TABLE Estatus ADD CONSTRAINT llaveestatus PRIMARY KEY (idestatus);
 ALTER TABLE Ocupacion ADD CONSTRAINT llaveocupacion PRIMARY KEY (idocupacion);
 ALTER TABLE Rol ADD CONSTRAINT llaverol PRIMARY KEY (idrol);
 ALTER TABLE Permiso ADD CONSTRAINT llavepermiso PRIMARY KEY (idpermiso);
-
+ALTER TABLE AdministradorEncuesta ADD CONSTRAINT llaveadministradorencuesta (idusuario, idencuesta);
+ALTER TABLE AlumnoEstatus ADD CONSTRAINT llavealumnoestatus (idusuario, idestatus);
+ALTER TABLE EstatusOcupacion ADD CONSTRAINT llaveestatusocupacion(idestatus, idocupacion);
+ALTER TABLE RolPermiso ADD CONSTRAINT llaverolpermiso (idrol, idpermiso);
+ALTER TABLE UsuarioRol ADD CONSTRAINT llaveusuariorol (idusuario, idrol);
 
 
 -- Llaves foráneas
 
---ALTER TABLE Alumno ADD CONSTRAINT 
+ALTER TABLE Alumno ADD CONSTRAINT lfalumnoidusuario FOREING KEY (idusuario) REFERENCES Usuario (idusuario);
 
 ALTER TABLE Grupo ADD CONSTRAINT lfgrupoidgeneracion FOREIGN KEY (idgeneracion) REFERENCES Generacion(idgeneracion);
 
@@ -38,3 +41,42 @@ ALTER TABLE RolPermiso ADD CONSTRAINT lfrolpermisoidpermiso FOREIGN KEY (idpermi
 
 ALTER TABLE UsuarioRol ADD CONSTRAINT lfusuariorolidusuario FOREIGN KEY (idusuario) REFERENCES Usuario(idusuario);
 ALTER TABLE UsuarioRol ADD CONSTRAINT lfusuariorolidrol FOREIGN KEY (idrol) REFERENCES Rol(idrol);
+
+
+-- Constraints específicos de Usuario
+
+ALTER TABLE Usuario ADD CONSTRAINT ckusuarioidusuario CHECK (DATALENGTH(idusuario) >= 13);
+ALTER TABLE Usuario ADD CONSTRAINT ckusuariosexo CHECK (DATALENGTH(sexo) >= 8);
+ALTER TABLE Usuario ADD CONSTRAINT ckusuariotelefono CHECK (DATALENGTH(telefono) >= 10);
+
+
+-- Constraints específicos de Alumno
+
+ALTER TABLE Alumno ADD CONSTRAINT ckalumnotelefonocasa CHECK (DATALENGTH(telefonocasa) >= 10);
+ALTER TABLE Alumno ADD CONSTRAINT ckalumnoareainteres CHECK (DATALENGTH(areainteres) >= 5);
+
+
+-- Constraints específicos de Grupo
+
+ALTER TABLE Grupo ADD CONSTRAINT ckgrupoespecialidad CHECK (DATALENGTH(especialidad)>= 10);
+
+
+-- Constraints específicos de Generacion
+
+ALTER TABLE Generacion ADD CONSTRAINT ckgeneracionfechafin CHECK (fechafin > fechainicio);
+
+
+-- Constraints específicos de Estatus
+
+ALTER TABLE Estatus ADD CONSTRAINT ckestatusnombre CHECK (DATALENGTH(nombre) >= 5);
+
+
+-- Constraints específicos de Ocupacion
+
+ALTER TABLE Ocupacion ADD CONSTRAINT ckocupacionnombre CHECK (DATALENGTH(nombre) >= 5);
+ALTER TABLE Ocupacion ADD CONSTRAINT ckocupacionareaocupacion CHECK (DATALENGTH(areaocupacion) >= 5);
+
+
+-- Constraints específicos de AdministradorEncuesta
+
+ALTER TABLE AdministradorEncuesta ADD CONSTRAINT ckadministradorencuestafechabaja CHECK (fechabaja > fechapublicacion);
