@@ -1,25 +1,25 @@
-001,iniciar sesion,permite al admin y director iniciar sesion
-002,cerrar sesion,permite al admin y director cerrar su sesion
-003,contestar encuesta,permite al alumno contestar la encuesta asignada
-004,registrar alumno,permite al admin registra un solo alumno
-005,modificar info alumno,permite al admin modificar info de un alumno
-006,eliminar alumno,permite al admin eliminar un alumno del sistema
-007,publica encuesta,permite al admin publicar una encuesta en un rango de fechas
-008,cerrar encuesta,permite al admin cerrar manualente una encuesta activa
-009,consultar encuesta,permite al admin y director consultar las encuestas contestadas
-010,modificar info cuenta,permite al admin y director modificar info de su cuenta
-011,cambiar contraseña,permite al admin y director cambiar su contraseña
-012,consultar reportes,permite al admin y director consultar reportes historicos y guardados 
-013,realizar consultas,permite al admin y director consultar por filtros
-014,eliminar grupo,permite al admin eliminar un grupo
-015,registar grupo,permite al admin registar un grupo y alumnos
-016,modificar grupo,permite al admin actualizar info del grupo o cambiar un grupo de semestre
-017,imprimir reporte,permite al admin y director imprimir un reporte
-018,contactar alumnos de consulta,permite al admin y director contactar alumnos de una consulta
-019,registar admin,permite al director registrar un admin
-020,eliminar admin,permite al director eliminar un admin
-021,buscar alumnos,permite al admin y director buscar un alumno por nombre o id(noControl)
-022,guardar consulta como reporte,permite al admin y director guardar consultas como reportes
-023,modificar reporte,permite al admin y director cambiar el reporte
-024,eliminar reporte,pertence al admin y director eliminar el reporte
-025,modificar encuesta,pertence al admin modificar info de alguna encuesta
+001,INICIAR SESION,PERMITE AL ADMIN Y DIRECTOR INICIAR SESION
+002,CERRAR SESION,PERMITE AL ADMIN Y DIRECTOR CERRAR SU SESION
+003,CONTESTAR ENCUESTA,PERMITE AL ALUMNO CONTESTAR LA ENCUESTA ASIGNADA
+004,REGISTRAR ALUMNO,PERMITE AL ADMIN REGISTRA UN SOLO ALUMNO
+005,MODIFICAR INFO ALUMNO,PERMITE AL ADMIN MODIFICAR INFO DE UN ALUMNO
+006,ELIMINAR ALUMNO,PERMITE AL ADMIN ELIMINAR UN ALUMNO DEL SISTEMA
+007,PUBLICA ENCUESTA,PERMITE AL ADMIN PUBLICAR UNA ENCUESTA EN UN RANGO DE FECHAS
+008,CERRAR ENCUESTA,PERMITE AL ADMIN CERRAR MANUALENTE UNA ENCUESTA ACTIVA
+009,CONSULTAR ENCUESTA,PERMITE AL ADMIN Y DIRECTOR CONSULTAR LAS ENCUESTAS CONTESTADAS
+010,MODIFICAR INFO CUENTA,PERMITE AL ADMIN Y DIRECTOR MODIFICAR INFO DE SU CUENTA
+011,CAMBIAR CONTRASEÑA,PERMITE AL ADMIN Y DIRECTOR CAMBIAR SU CONTRASEÑA
+012,CONSULTAR REPORTES,PERMITE AL ADMIN Y DIRECTOR CONSULTAR REPORTES HISTORICOS Y GUARDADOS 
+013,REALIZAR CONSULTAS,PERMITE AL ADMIN Y DIRECTOR CONSULTAR POR FILTROS
+014,ELIMINAR GRUPO,PERMITE AL ADMIN ELIMINAR UN GRUPO
+015,REGISTAR GRUPO,PERMITE AL ADMIN REGISTAR UN GRUPO Y ALUMNOS
+016,MODIFICAR GRUPO,PERMITE AL ADMIN ACTUALIZAR INFO DEL GRUPO O CAMBIAR UN GRUPO DE SEMESTRE
+017,IMPRIMIR REPORTE,PERMITE AL ADMIN Y DIRECTOR IMPRIMIR UN REPORTE
+018,CONTACTAR ALUMNOS DE CONSULTA,PERMITE AL ADMIN Y DIRECTOR CONTACTAR ALUMNOS DE UNA CONSULTA
+019,REGISTAR ADMIN,PERMITE AL DIRECTOR REGISTRAR UN ADMIN
+020,ELIMINAR ADMIN,PERMITE AL DIRECTOR ELIMINAR UN ADMIN
+021,BUSCAR ALUMNOS,PERMITE AL ADMIN Y DIRECTOR BUSCAR UN ALUMNO POR NOMBRE O ID(NOCONTROL)
+022,GUARDAR CONSULTA COMO REPORTE,PERMITE AL ADMIN Y DIRECTOR GUARDAR CONSULTAS COMO REPORTES
+023,MODIFICAR REPORTE,PERMITE AL ADMIN Y DIRECTOR CAMBIAR EL REPORTE
+024,ELIMINAR REPORTE,PERTENCE AL ADMIN Y DIRECTOR ELIMINAR EL REPORTE
+025,MODIFICAR ENCUESTA,PERTENCE AL ADMIN MODIFICAR INFO DE ALGUNA ENCUESTA

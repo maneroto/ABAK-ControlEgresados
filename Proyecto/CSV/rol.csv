@@ -1,4 +1,3 @@
-001,alumno,contesta encuestas a traves de un token
-002,admin,da alta/baja encuestas - registra alumnos - realiza consultas/reportes
-003,director,realiza consultas/reportes
-
+001,ALUMNO,CONTESTA ENCUESTAS A TRAVES DE UN TOKEN
+002,ADMIN,DA ALTA/BAJA ENCUESTAS - REGISTRA ALUMNOS - REALIZA CONSULTAS/REPORTES
+003,DIRECTOR,REALIZA CONSULTAS/REPORTES

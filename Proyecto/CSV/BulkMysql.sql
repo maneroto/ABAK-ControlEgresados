@@ -43,7 +43,7 @@ INTO TABLE controlegresados.Rol
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 
-LOAD DATA INFILE 'e:\wwwroot\controlegresados\usario.csv'
+LOAD DATA INFILE 'e:\wwwroot\controlegresados\usuario.csv'
 INTO TABLE controlegresados.Usuario
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
