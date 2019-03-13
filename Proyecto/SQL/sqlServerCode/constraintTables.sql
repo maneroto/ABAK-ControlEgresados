@@ -9,16 +9,26 @@ ALTER TABLE Estatus ADD CONSTRAINT llaveestatus PRIMARY KEY (idestatus);
 ALTER TABLE Ocupacion ADD CONSTRAINT llaveocupacion PRIMARY KEY (idocupacion);
 ALTER TABLE Rol ADD CONSTRAINT llaverol PRIMARY KEY (idrol);
 ALTER TABLE Permiso ADD CONSTRAINT llavepermiso PRIMARY KEY (idpermiso);
-ALTER TABLE AdministradorEncuesta ADD CONSTRAINT llaveadministradorencuesta (idusuario, idencuesta);
-ALTER TABLE AlumnoEstatus ADD CONSTRAINT llavealumnoestatus (idusuario, idestatus);
-ALTER TABLE EstatusOcupacion ADD CONSTRAINT llaveestatusocupacion(idestatus, idocupacion);
-ALTER TABLE RolPermiso ADD CONSTRAINT llaverolpermiso (idrol, idpermiso);
-ALTER TABLE UsuarioRol ADD CONSTRAINT llaveusuariorol (idusuario, idrol);
+ALTER TABLE AdministradorEncuesta ADD CONSTRAINT llaveadministradorencuesta PRIMARY KEY (idusuario, idencuesta);
+ALTER TABLE AlumnoEstatus ADD CONSTRAINT llavealumnoestatus PRIMARY KEY (idusuario, idestatus);
+ALTER TABLE EstatusOcupacion ADD CONSTRAINT llaveestatusocupacion PRIMARY KEY (idestatus, idocupacion);
+ALTER TABLE RolPermiso ADD CONSTRAINT llaverolpermiso PRIMARY KEY (idrol, idpermiso);
+ALTER TABLE UsuarioRol ADD CONSTRAINT llaveusuariorol PRIMARY KEY (idusuario, idrol);
 
+
+-- Auto incrementos
+
+ALTER TABLE Grupo MODIFY idgrupo int NOT NULL AUTO_INCREMENT;
+ALTER TABLE Generacion MODIFY idgeneracion int NOT NULL AUTO_INCREMENT;
+ALTER TABLE Reporte MODIFY idreporte int NOT NULL AUTO_INCREMENT;
+ALTER TABLE Estatus MODIFY idestatus int NOT NULL AUTO_INCREMENT;
+ALTER TABLE Ocupacion MODIFY idocupacion int NOT NULL AUTO_INCREMENT;
+ALTER TABLE Rol MODIFY idrol int NOT NULL AUTO_INCREMENT;
+ALTER TABLE Permiso MODIFY idpermiso int NOT NULL AUTO_INCREMENT;
 
 -- Llaves foráneas
 
-ALTER TABLE Alumno ADD CONSTRAINT lfalumnoidusuario FOREING KEY (idusuario) REFERENCES Usuario (idusuario);
+ALTER TABLE Alumno ADD CONSTRAINT lfalumnoidusuario FOREIGN KEY (idusuario) REFERENCES Usuario (idusuario);
 
 ALTER TABLE Grupo ADD CONSTRAINT lfgrupoidgeneracion FOREIGN KEY (idgeneracion) REFERENCES Generacion(idgeneracion);
 

@@ -20,7 +20,7 @@ CREATE TABLE Alumno
 
 CREATE TABLE Grupo
 (
-	idgrupo int NOT NULL AUTO_INCREMENT,
+	idgrupo int NOT NULL,
 	nombre char(1),
 	especialidad varchar(30),
 	turno char(1),
@@ -30,7 +30,7 @@ CREATE TABLE Grupo
 
 CREATE TABLE Generacion
 (
-	idgeneracion int NOT NULL AUTO_INCREMENT,
+	idgeneracion int NOT NULL,
 	fechainicio datetime,
 	fechafin datetime
 );
@@ -45,7 +45,7 @@ CREATE TABLE Encuesta
 
 CREATE TABLE Reporte
 (
-	idreporte int NOT NULL AUTO_INCREMENT,
+	idreporte int NOT NULL,
 	descripcion varchar(200),
 	archivo varchar(100),
 	fecha datetime,
@@ -54,14 +54,14 @@ CREATE TABLE Reporte
 
 CREATE TABLE Estatus
 (
-	idestatus int NOT NULL AUTO_INCREMENT,
+	idestatus int NOT NULL,
 	nombre varchar(25),
 	descripcion varchar(100)
 );
 
 CREATE TABLE Ocupacion
 (
-	idocupacion int NOT NULL AUTO_INCREMENT,
+	idocupacion int NOT NULL,
 	nombre varchar(35),
 	descripcion varchar(200),
 	areaocupacion varchar(100),
@@ -70,14 +70,14 @@ CREATE TABLE Ocupacion
 
 CREATE TABLE Rol
 (
-	idrol int NOT NULL AUTO_INCREMENT,
+	idrol int NOT NULL,
 	nombrerol varchar(25),
 	descripcion varchar(100)
 );
 
 CREATE TABLE Permiso
 (
-	idpermiso int NOT NULL AUTO_INCREMENT,
+	idpermiso int NOT NULL,
 	nombrepermiso varchar(25),
 	descripcion varchar(100)
 );
