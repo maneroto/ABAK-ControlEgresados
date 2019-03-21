@@ -9334,8 +9334,8 @@ form p:last-child {
   height: 22px;
   border-top: 2px solid transparent;
   border-left: 2px solid transparent;
-  border-right: 2px solid #ff4081;
-  border-bottom: 2px solid #ff4081;
+  border-right: 2px solid #0d47a1;
+  border-bottom: 2px solid #0d47a1;
   -webkit-transform: rotate(40deg);
   -moz-transform: rotate(40deg);
   -ms-transform: rotate(40deg);
@@ -11122,7 +11122,7 @@ ul.side-nav.leftside-navigation li.active > a {
 
 .picker__date-display {
   text-align: center;
-  background-color: #ff4081;
+  background-color: #0d47a1;
   color: #fff;
   padding-bottom: 15px;
   font-weight: 300;
@@ -11136,7 +11136,7 @@ ul.side-nav.leftside-navigation li.active > a {
 }
 
 .picker__weekday-display {
-  background-color: #ff1c69;
+  background-color: #0d47a1;
   padding: 10px;
   font-weight: 200;
   letter-spacing: .5;
@@ -11185,7 +11185,7 @@ ul.side-nav.leftside-navigation li.active > a {
 }
 
 .picker__day.picker__day--today {
-  color: #ff4081;
+  color: #0d47a1;
 }
 
 .picker__day.picker__day--today.picker__day--selected {
@@ -11205,7 +11205,7 @@ ul.side-nav.leftside-navigation li.active > a {
   -ms-transform: scale(0.9);
   -o-transform: scale(0.9);
   transform: scale(0.9);
-  background-color: #ff4081;
+  background-color: #0d47a1;
   color: #ffffff;
 }
 
@@ -11223,7 +11223,7 @@ ul.side-nav.leftside-navigation li.active > a {
 .picker__close, .picker__today {
   font-size: 1.1rem;
   padding: 0 1rem;
-  color: #ff4081;
+  color: #0d47a1;
 }
 
 .picker__nav--prev:before,
@@ -11244,7 +11244,7 @@ ul.side-nav.leftside-navigation li.active > a {
 }
 
 button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
-  background-color: #fef3f7;
+  background-color: #fff;
 }
 
 /* ==========================================================================

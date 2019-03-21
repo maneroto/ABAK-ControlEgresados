@@ -43,12 +43,8 @@
             <div class="row right-align">
                 <div class="col s12 m4 l3">
                 </div>
-                <div class="col s12 m8 l9">
-                  <a class="waves-effect waves-light  btn"><i class="mdi-file-cloud-download left"></i>descargar como zip</a>
-                </div>
-                <br>
-                <br>
-                <br>
+                
+
             <!--Finish Buttons for adding-->
             <!--encuesta frame-->
             <div id="card-stats">
@@ -56,33 +52,69 @@
                   <div class="col s12 m6 l3">
                       <div class="card">
                           <div class="card-image waves-effect waves-block waves-light">
-                              <a href=""><img src="images/reportes1.jpg" alt="alumnos-img"></a>
+                              <img class="activator" src="images/reportes1.jpg" alt="alumnos-img">
                           </div>
                           <div class="card-content  blue darken-4 white-text">
                               <p class="card-stats-title"><i class="mdi-action-history"></i></p>
                               <h4 class="card-stats-number">Agosto-Diciembre 2018</h4>
                           </div>
+                          <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">Agosto-Diciembre 2018<i class="material-icons right">close</i></span>
+                              <p>
+                                Fecha: 20 September, 2018
+                              </p>
+                              <p>
+                                <a class="waves-effect waves-light  btn"><i class="mdi-file-cloud-download left"></i>descargar</a>
+                              </p>
+                              <p>
+                                <a class="waves-effect waves-light  btn red"><i class="material-icons left">delete</i>eliminar</a>
+                              </p>
+                          </div>
                       </div>
                   </div>
                   <div class="col s12 m6 l3">
                       <div class="card">
                           <div class="card-image waves-effect waves-block waves-light">
-                              <a href=""><img src="images/reportes1.jpg" alt="grupos-img"></a>
+                              <img class="activator" src="images/reportes1.jpg" alt="grupos-img">
                           </div>
                           <div class="card-content  blue darken-4 white-text">
                               <p class="card-stats-title"><i class="mdi-action-history"></i></p>
                               <h4 class="card-stats-number">Febrero - Junio 2018</h4>
                           </div>
+                          <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">Agosto-Diciembre 2018<i class="material-icons right">close</i></span>
+                              <p>
+                                Fecha: 13 March, 2018
+                              </p>
+                              <p>
+                                <a class="waves-effect waves-light  btn"><i class="mdi-file-cloud-download left"></i>descargar</a>
+                              </p>
+                              <p>
+                                <a class="waves-effect waves-light  btn red"><i class="material-icons left">delete</i>eliminar</a>
+                              </p>
+                          </div>
                       </div>
                   </div>
                   <div class="col s12 m6 l3">
                       <div class="card">
                           <div class="card-image waves-effect waves-block waves-light">
-                              <a href=""><img src="images/reportes1.jpg" alt="encuesta-img"></a>
+                              <img class="activator" src="images/reportes1.jpg" alt="encuesta-img">
                           </div>
                           <div class="card-content  blue darken-4 white-text">
                               <p class="card-stats-title"><i class="mdi-action-history"></i></p>
                               <h4 class="card-stats-number">Agosto-Diciembre 2019</h4>
+                          </div>
+                          <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">Agosto-Diciembre 2018<i class="material-icons right">close</i></span>
+                              <p>
+                                Fecha: 03 October, 2019
+                              </p>
+                              <p>
+                                <a class="waves-effect waves-light  btn"><i class="mdi-file-cloud-download left"></i>descargar</a>
+                              </p>
+                              <p>
+                                <a class="waves-effect waves-light  btn red"><i class="material-icons left">delete</i>eliminar</a>
+                              </p>
                           </div>
                       </div>
                   </div>

@@ -45,33 +45,72 @@
                   <div class="col s12 m6 l4">
                       <div class="card">
                           <div class="card-image waves-effect waves-block waves-light">
-                              <a href=""><img src="images/encuestas.jpg" alt="alumnos-img"></a>
+                              <img class="activator" src="images/encuestas.jpg" alt="alumnos-img">
                           </div>
                           <div class="card-content  blue darken-4 white-text">
                               <p class="card-stats-title"><i class="mdi-action-assignment"></i></p>
                               <h4 class="card-stats-number">4to Semestre</h4>
                           </div>
+                          <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">4to Semestre<i class="material-icons right">close</i></span>
+                              <p>
+                                Fecha de apertura: <input type="text" class="datepicker">
+                              </p>
+                              <p>
+                                Fecha de cierre: <input type="text" class="datepicker">
+                              </p>
+                              <p>
+                                <input type="checkbox" id="4tostatus"/>
+                                <label for="4tostatus">Encuesta activa</label>
+                              </p>
+                          </div>
                       </div>
                   </div>
                   <div class="col s12 m6 l4">
                       <div class="card">
                           <div class="card-image waves-effect waves-block waves-light">
-                              <a href=""><img src="images/encuestas.jpg" alt="grupos-img"></a>
+                              <img class="activator" src="images/encuestas.jpg" alt="grupos-img">
                           </div>
                           <div class="card-content  blue darken-4 white-text">
                               <p class="card-stats-title"><i class="mdi-action-assignment"></i></p>
                               <h4 class="card-stats-number">6to Semestre</h4>
                           </div>
+                          <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">6to Semestre<i class="material-icons right">close</i></span>
+                              <p>
+                                Fecha de apertura: <input type="text" class="datepicker">
+                              </p>
+                              <p>
+                                Fecha de cierre: <input type="text" class="datepicker">
+                              </p>
+                              <p>
+                                <input type="checkbox" id="6tostatus"/>
+                                <label for="6tostatus">Encuesta activa</label>
+                              </p>
+                          </div>
                       </div>
                   </div>
                   <div class="col s12 m6 l4">
                       <div class="card">
                           <div class="card-image waves-effect waves-block waves-light">
-                              <a href=""><img src="images/encuestas.jpg" alt="encuesta-img"></a>
+                              <img class="activator" src="images/encuestas.jpg" alt="encuesta-img">
                           </div>
                           <div class="card-content  blue darken-4 white-text">
                               <p class="card-stats-title"><i class="mdi-action-assignment"></i></p>
                               <h4 class="card-stats-number">Egresados</h4>
+                          </div>
+                          <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">Egresados<i class="material-icons right">close</i></span>
+                              <p>
+                                Fecha de apertura: <input type="text" class="datepicker">
+                              </p>
+                              <p>
+                                Fecha de cierre: <input type="text" class="datepicker">
+                              </p>
+                              <p>
+                                <input type="checkbox" id="egrstatus"/>
+                                <label for="egrstatus">Encuesta activa</label>
+                              </p>
                           </div>
                       </div>
                   </div>
@@ -120,6 +159,6 @@
   </div>
   <!-- END MAIN -->
   <?php include 'common/footer.html' ?>
+  <script type="text/javascript" src="js/encuestaToggle.js"></script>
 </body>
-
 </html>

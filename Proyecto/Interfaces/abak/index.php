@@ -60,13 +60,13 @@
           <div class="input-field col s12">
             <i class="mdi-action-lock-outline prefix"></i>
             <input id="password" type="password">
-            <label for="password">Contrasena</label>
+            <label for="password">Contraseña</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12 m12 l12  login-text">
               <input type="checkbox" id="remember-me" />
-              <label for="remember-me">Recuerdame</label>
+              <label for="remember-me">Recuérdame</label>
           </div>
         </div>
         <div class="row">
@@ -76,7 +76,7 @@
         </div>
         <div class="row">
           <div class="input-field col s12 m12 l12">
-              <p class="margin right-align medium-small"><a href="olvido_contrasena.php">Olvidaste tu contrasena?</a></p>
+              <p class="margin right-align medium-small"><a href="olvido_contrasena.php">¿Olvidaste tu contraseña?</a></p>
           </div>
         </div>
 
