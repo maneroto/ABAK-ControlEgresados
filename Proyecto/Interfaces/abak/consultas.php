@@ -15,7 +15,7 @@
             <!-- Search for small screen -->
             <div class="header-search-wrapper grey hide-on-large-only">
                 <i class="mdi-action-search active"></i>
-                <input type="text" Name="Search" class="header-search-input z-depth-2" placeholder="Explore Materialize">
+                <input type="text" Name="Search" class="header-search-input z-depth-2" placeholder="Buscar...">
             </div>
           <div class="container">
             <div class="row">
@@ -41,19 +41,11 @@
               <a class="waves-effect waves-light  btn"><i class="mdi-content-save left"></i>Guardar consulta</a>
               <a class="waves-effect waves-light  btn"><i class="mdi-communication-email left"></i>Contactar alumnos</a>
             </div><br>
-
             <div class="row">
-              <div class="col s12 m4 l3">
-              </div>
               <div class="col s12 m8 l12">
                   <?php include "db.html"; ?>
               </div>
             </div><br>
-
-              <div class="col s12 m8 l2">
-                <a class="waves-effect waves-light  btn"><i class="mdi-action-delete left"></i>Eliminar consulta</a>
-              </div>
-
           </div>
         <!-- Floating Action Button -->
         </div>
