@@ -53,8 +53,7 @@ CREATE TABLE Encuesta
 (
 	idencuesta varchar(20) NOT NULL PRIMARY KEY,
 	descripcion varchar(100),
-	activa tinyint(1),
-	archivo varchar(100)
+	activa tinyint(1)
 );
 
 CREATE TABLE Reporte
@@ -76,8 +75,9 @@ CREATE TABLE Estatus
 
 CREATE TABLE Ocupacion
 (
-	idocupacion int NOT NULL AUTO_INCREMENT PRIMARY KEY,
-	nombre varchar(35),
+	/*4 últimos dígitos de no de control + primeras 2 letras estatus + primera letra nombre + primera letra ap + primera letra am + primera letra nombre ocupacion*/
+	idocupacion varchar(10) NOT NULL PRIMARY KEY,
+	nombre varchar(50),
 	descripcion varchar(200),
 	areaocupacion varchar(100),
 	lugarocupacion varchar(100),
@@ -100,7 +100,7 @@ CREATE TABLE Permiso
 CREATE TABLE AlumnoEncuesta
 (
 	idusuario varchar(14) NOT NULL,
-	idencuesta char(8) NOT NULL,
+	idencuesta varchar(20) NOT NULL,
 	fecha datetime,
 	PRIMARY KEY (idusuario, idencuesta),
 	FOREIGN KEY (idusuario) REFERENCES Usuario(idusuario),
@@ -110,7 +110,7 @@ CREATE TABLE AlumnoEncuesta
 CREATE TABLE AdministradorEncuesta
 (
 	idusuario varchar(14) NOT NULL,
-	idencuesta char(8) NOT NULL,
+	idencuesta varchar(20) NOT NULL,
 	fechapublicacion datetime,
 	fechabaja datetime,
 	PRIMARY KEY (idusuario, idencuesta),
@@ -127,11 +127,13 @@ CREATE TABLE AlumnoEstatus
 	FOREIGN KEY (idestatus) REFERENCES Estatus(idestatus)
 );
 
-CREATE TABLE EstatusOcupacion
+CREATE TABLE AlumnoEstatusOcupacion
 (
+	idusuario varchar(14) NOT NULL,
 	idestatus varchar(25) NOT NULL,
-	idocupacion int NOT NULL,
-	PRIMARY KEY (idestatus, idocupacion),
+	idocupacion varchar(10) NOT NULL,
+	PRIMARY KEY (idusuario, idestatus, idocupacion),
+	FOREIGN KEY (idusuario) REFERENCES Usuario(idusuario),
 	FOREIGN KEY (idestatus) REFERENCES Estatus(idestatus),
 	FOREIGN KEY (idocupacion) REFERENCES Ocupacion(idocupacion)
 );
