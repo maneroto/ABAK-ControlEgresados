@@ -1,0 +1,26 @@
+Evaluador: abak
+Evaluando: caritas
+
+Consistencia
+A traves de la interfaz usan los mismos colores, tipografia, lo cual esta bastante bien
+
+Shortcuts
+Deben hacer mas accesible la forma de donar, se puede trabajar
+
+Feedbaack
+En el momento de evaluar no habia feedback hacia el usuario, pero era porque aun no lo implementaban
+
+Facilidad de uso
+Esta bastante bien excepto la forma de donar
+
+Manejo de errores
+No estaba implementado, para pagar te llevaba a la pagina de Paypal pero nadamás
+
+Deshacer errores
+No estaba implementado
+
+Control por parte del usario
+Lo lograron bastante bien, tienen un navbar muy intuitivo, sabes como moverte a traves de la app web
+
+Memoria de corto plazo
+Los menus estan agrupados, lo cual facilita la navegacion
