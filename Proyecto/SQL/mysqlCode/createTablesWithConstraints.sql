@@ -121,7 +121,7 @@ CREATE TABLE AdministradorEncuesta
 CREATE TABLE AlumnoEstatus
 (
 	idusuario varchar(14) NOT NULL,
-	idestatus int NOT NULL,
+	idestatus varchar(25) NOT NULL,
 	PRIMARY KEY (idusuario, idestatus),
 	FOREIGN KEY (idusuario) REFERENCES Usuario(idusuario),
 	FOREIGN KEY (idestatus) REFERENCES Estatus(idestatus)
@@ -129,7 +129,7 @@ CREATE TABLE AlumnoEstatus
 
 CREATE TABLE EstatusOcupacion
 (
-	idestatus int NOT NULL,
+	idestatus varchar(25) NOT NULL,
 	idocupacion int NOT NULL,
 	PRIMARY KEY (idestatus, idocupacion),
 	FOREIGN KEY (idestatus) REFERENCES Estatus(idestatus),
