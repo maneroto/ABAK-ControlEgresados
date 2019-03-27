@@ -7,6 +7,7 @@ CREATE TABLE Usuario
 	sexo varchar(10),
 	email varchar(100),
 	telefono varchar(13),
+	contrasena varchar(50),
 	CHECK (DATALENGTH(idusuario) >= 13),
 	CHECK (DATALENGTH(sexo) >= 8),
 	CHECK (DATALENGTH(telefono) >= 10)
@@ -18,7 +19,9 @@ CREATE TABLE Alumno
 	fechanacimiento datetime,
 	telefonocasa varchar(13),
 	areainteres varchar(100),
-	encuesta tinyint(1),
+	encuesta4 tinyint(1),
+	encuesta6 tinyint(1),
+	encuestaE tinyint(1),
 	FOREIGN KEY (idusuario) REFERENCES Usuario (idusuario),
 	CHECK (DATALENGTH(telefonocasa) >= 10),
 	CHECK (DATALENGTH(areainteres) >= 5)
