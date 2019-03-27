@@ -138,8 +138,8 @@ CREATE TABLE EstatusOcupacion
 
 CREATE TABLE RolPermiso
 (
-	idrol int NOT NULL,
-	idpermiso int NOT NULL,
+	idrol varchar(25) NOT NULL,
+	idpermiso varchar(25) NOT NULL,
 	PRIMARY KEY (idrol, idpermiso),
 	FOREIGN KEY (idrol) REFERENCES Rol(idrol),
 	FOREIGN KEY (idpermiso) REFERENCES Permiso(idpermiso)
@@ -148,7 +148,7 @@ CREATE TABLE RolPermiso
 CREATE TABLE UsuarioRol
 (
 	idusuario varchar(14) NOT NULL,
-	idrol int NOT NULL,
+	idrol varchar(25) NOT NULL,
 	PRIMARY KEY (idusuario, idrol),
 	FOREIGN KEY (idusuario) REFERENCES Usuario(idusuario),
 	FOREIGN KEY (idrol) REFERENCES Rol(idrol)
