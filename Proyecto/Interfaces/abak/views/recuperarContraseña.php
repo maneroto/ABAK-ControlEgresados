@@ -1,14 +1,7 @@
 <?php
-    session_start();
     $httpProtocol = "https://";
     $host = $_SERVER['SERVER_NAME'];
     $url = "/DAW%20REPO/ABAK-ControlEgresados/Proyecto/New%20Interfaces/Proyecto/";
-    if(isset($_GET['logout']) && $_GET['logout'] == true)
-    {
-    	session_destroy();
-    	header("location:index.php");
-    	exit;
-    }
 ?>
 <!DOCTYPE html>
 <html>
@@ -26,9 +19,8 @@
         <link rel="stylesheet" href="<?php echo $httpProtocol.$host.$url.'css/index.css'?>" type="text/css" />
     </head>
     <body>
-        <?php include("sections/_login.php")?>
+        <?php include("../sections/_getPassword.php")?>
         <script type="text/javascript" src="<?php echo $httpProtocol.$host.$url.'js/jquery-3.3.1.min.js'?>"></script>
         <script type="text/javascript" src="<?php echo $httpProtocol.$host.$url.'js/materialize.min.js'?>"></script>
-        <script type="text/javascript" src="<?php echo $httpProtocol.$host.$url.'js/indexInit.js'?>"></script>
     </body>
 </html>

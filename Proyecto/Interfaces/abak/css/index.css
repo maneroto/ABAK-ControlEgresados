@@ -1,0 +1,116 @@
+:root
+{
+    --mainColor: #0d47a1;
+    --secondaryColor: #2196f3;
+    --thirdColor: #64b5f6;
+}
+body
+{
+    background: var(--mainColor);
+}
+.btn
+{
+    background: var(--mainColor);
+    margin-top: 15px!important;
+}
+.btn:hover
+{
+    background: var(--secondaryColor);
+}
+.right-text
+{
+    text-align:right;
+    color: var(--mainColor)!important;
+    font-weight: 600;
+}
+.boxContainer
+{
+    width: 300px;
+    height: auto;
+    background: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: transform 0.5s ease-out, box-shadow 0.1s ease-out;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 5px 5px rgba(0,0,0,0.2);
+}
+.boxContainer:hover
+{
+    box-shadow: 0 8px 5px 5px rgba(0,0,0,0.2);
+}
+.center
+{
+    position: relative !important;
+    left: 50%!important;
+    transform: translateX(-50%);
+}
+.material-icons
+{
+    color: var(--secondaryColor)!important;
+}
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked
+{
+    position:relative;
+    margin-top: 20px;
+}
+.row .input-field input
+{
+    margin-bottom: 5px;
+}
+.row
+{
+    margin-bottom: 0px!important;
+}
+#logo
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10vmax;
+    height: 10vmax;
+    min-width: 100px;
+    min-height: 100px;
+}
+#preloader
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    background: var(--mainColor);
+    z-index: 1000;
+}
+#preloader span{
+    height: 2vmax;
+    width: 2vmax;
+    background: white;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 45vh;
+    border-radius: 50%;
+    animation: wave 2s ease-in-out infinite;
+}
+
+#preloader span:nth-child(1){
+    left: 35vw;
+    animation-delay: 0s;
+}
+
+#preloader span:nth-child(2){
+    left: 45vw;
+    animation-delay: 0.1s;
+}
+
+#preloader span:nth-child(3){
+    left: 55vw;
+    animation-delay: 0.2s;
+}
+
+#preloader span:nth-child(4){
+    left: 65vw;
+    animation-delay: 0.3s;
+}

@@ -1,0 +1,33 @@
+[02-Apr-2019 20:25:37 UTC] PHP Parse error:  syntax error, unexpected ''<script type="text/javascript' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/sections/alumnos/_header.php on line 13
+[02-Apr-2019 20:25:37 UTC] PHP Stack trace:
+[02-Apr-2019 20:25:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/alumnos/form.php:0
+[02-Apr-2019 20:28:47 UTC] PHP Parse error:  syntax error, unexpected ''<script type="text/javascript' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/sections/alumnos/_header.php on line 13
+[02-Apr-2019 20:28:47 UTC] PHP Stack trace:
+[02-Apr-2019 20:28:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/alumnos/form.php:0
+[02-Apr-2019 20:28:48 UTC] PHP Parse error:  syntax error, unexpected ''<script type="text/javascript' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/sections/alumnos/_header.php on line 13
+[02-Apr-2019 20:28:48 UTC] PHP Stack trace:
+[02-Apr-2019 20:28:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/alumnos/form.php:0
+[02-Apr-2019 20:28:49 UTC] PHP Parse error:  syntax error, unexpected ''<script type="text/javascript' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/sections/alumnos/_header.php on line 13
+[02-Apr-2019 20:28:49 UTC] PHP Stack trace:
+[02-Apr-2019 20:28:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/alumnos/form.php:0
+[02-Apr-2019 20:28:54 UTC] PHP Parse error:  syntax error, unexpected ''<script type="text/javascript' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/sections/alumnos/_header.php on line 13
+[02-Apr-2019 20:28:54 UTC] PHP Stack trace:
+[02-Apr-2019 20:28:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/alumnos/form.php:0
+[02-Apr-2019 20:28:54 UTC] PHP Parse error:  syntax error, unexpected ''<script type="text/javascript' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/sections/alumnos/_header.php on line 13
+[02-Apr-2019 20:28:54 UTC] PHP Stack trace:
+[02-Apr-2019 20:28:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/alumnos/form.php:0
+[02-Apr-2019 20:28:54 UTC] PHP Parse error:  syntax error, unexpected ''<script type="text/javascript' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/sections/alumnos/_header.php on line 13
+[02-Apr-2019 20:28:54 UTC] PHP Stack trace:
+[02-Apr-2019 20:28:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/alumnos/form.php:0
+[02-Apr-2019 20:28:54 UTC] PHP Parse error:  syntax error, unexpected ''<script type="text/javascript' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/sections/alumnos/_header.php on line 13
+[02-Apr-2019 20:28:54 UTC] PHP Stack trace:
+[02-Apr-2019 20:28:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/alumnos/form.php:0
+[02-Apr-2019 20:28:54 UTC] PHP Parse error:  syntax error, unexpected ''<script type="text/javascript' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/sections/alumnos/_header.php on line 13
+[02-Apr-2019 20:28:54 UTC] PHP Stack trace:
+[02-Apr-2019 20:28:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/alumnos/form.php:0
+[02-Apr-2019 20:28:55 UTC] PHP Parse error:  syntax error, unexpected ''<script type="text/javascript' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/sections/alumnos/_header.php on line 13
+[02-Apr-2019 20:28:55 UTC] PHP Stack trace:
+[02-Apr-2019 20:28:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/alumnos/form.php:0
+[02-Apr-2019 20:28:55 UTC] PHP Parse error:  syntax error, unexpected ''<script type="text/javascript' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/sections/alumnos/_header.php on line 13
+[02-Apr-2019 20:28:55 UTC] PHP Stack trace:
+[02-Apr-2019 20:28:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/alumnos/form.php:0
