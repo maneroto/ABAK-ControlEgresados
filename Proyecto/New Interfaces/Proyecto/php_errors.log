@@ -1,0 +1,86 @@
+[08-Apr-2019 22:34:31 UTC] PHP Parse error:  syntax error, unexpected ''<script type="text/javascript' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/registros.php on line 13
+[09-Apr-2019 00:01:27 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php on line 71
+[09-Apr-2019 00:01:27 UTC] PHP Stack trace:
+[09-Apr-2019 00:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarAlumno.php:0
+[09-Apr-2019 00:01:27 UTC] PHP   2. registrarAlumno() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarAlumno.php:18
+[09-Apr-2019 00:01:27 UTC] PHP   3. mysqli_stmt->bind_param() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php:71
+[09-Apr-2019 00:02:28 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php on line 71
+[09-Apr-2019 00:02:28 UTC] PHP Stack trace:
+[09-Apr-2019 00:02:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarAlumno.php:0
+[09-Apr-2019 00:02:28 UTC] PHP   2. registrarAlumno() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarAlumno.php:18
+[09-Apr-2019 00:02:28 UTC] PHP   3. mysqli_stmt->bind_param() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php:71
+[10-Apr-2019 03:44:42 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php on line 8
+[10-Apr-2019 03:44:42 UTC] PHP Stack trace:
+[10-Apr-2019 03:44:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:0
+[10-Apr-2019 03:44:42 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:8
+[10-Apr-2019 03:45:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php on line 8
+[10-Apr-2019 03:45:02 UTC] PHP Stack trace:
+[10-Apr-2019 03:45:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:0
+[10-Apr-2019 03:45:02 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:8
+[10-Apr-2019 03:45:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php on line 8
+[10-Apr-2019 03:45:15 UTC] PHP Stack trace:
+[10-Apr-2019 03:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:0
+[10-Apr-2019 03:45:15 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:8
+[10-Apr-2019 03:47:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php on line 8
+[10-Apr-2019 03:47:01 UTC] PHP Stack trace:
+[10-Apr-2019 03:47:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:0
+[10-Apr-2019 03:47:01 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:8
+[10-Apr-2019 03:48:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php on line 8
+[10-Apr-2019 03:48:48 UTC] PHP Stack trace:
+[10-Apr-2019 03:48:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:0
+[10-Apr-2019 03:48:48 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:8
+[10-Apr-2019 04:02:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php on line 8
+[10-Apr-2019 04:02:34 UTC] PHP Stack trace:
+[10-Apr-2019 04:02:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:0
+[10-Apr-2019 04:02:34 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:8
+[10-Apr-2019 04:03:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, array given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php on line 8
+[10-Apr-2019 04:03:16 UTC] PHP Stack trace:
+[10-Apr-2019 04:03:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:0
+[10-Apr-2019 04:03:16 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/obtenerPerfil.php:8
+[10-Apr-2019 21:52:24 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php on line 84
+[10-Apr-2019 21:52:24 UTC] PHP Stack trace:
+[10-Apr-2019 21:52:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarAlumno.php:0
+[10-Apr-2019 21:52:24 UTC] PHP   2. registrarAlumno() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarAlumno.php:18
+[10-Apr-2019 21:59:34 UTC] PHP Fatal error:  Cannot pass parameter 3 by reference in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php on line 88
+[10-Apr-2019 21:59:34 UTC] PHP Stack trace:
+[10-Apr-2019 21:59:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarAlumno.php:0
+[10-Apr-2019 21:59:34 UTC] PHP   2. registrarAlumno() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarAlumno.php:18
+[11-Apr-2019 16:11:36 UTC] PHP Parse error:  syntax error, unexpected ''</option>'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/selectGeneracion.php on line 11
+[12-Apr-2019 00:30:15 UTC] PHP Warning:  mysqli::query(): Empty query in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php on line 64
+[12-Apr-2019 00:30:15 UTC] PHP Stack trace:
+[12-Apr-2019 00:30:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/selectGeneracion.php:0
+[12-Apr-2019 00:30:15 UTC] PHP   2. update_Gen() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/selectGeneracion.php:5
+[12-Apr-2019 00:30:15 UTC] PHP   3. mysqli->query() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php:64
+[12-Apr-2019 00:30:46 UTC] PHP Warning:  mysqli::query(): Empty query in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php on line 64
+[12-Apr-2019 00:30:46 UTC] PHP Stack trace:
+[12-Apr-2019 00:30:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/selectGeneracion.php:0
+[12-Apr-2019 00:30:46 UTC] PHP   2. update_Gen() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/selectGeneracion.php:5
+[12-Apr-2019 00:30:46 UTC] PHP   3. mysqli->query() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php:64
+[12-Apr-2019 01:17:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/selectGeneracion.php on line 9
+[12-Apr-2019 01:17:27 UTC] PHP Stack trace:
+[12-Apr-2019 01:17:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/selectGeneracion.php:0
+[12-Apr-2019 01:17:27 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/selectGeneracion.php:9
+[12-Apr-2019 02:21:15 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php on line 99
+[12-Apr-2019 02:21:15 UTC] PHP Stack trace:
+[12-Apr-2019 02:21:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php:0
+[12-Apr-2019 02:21:15 UTC] PHP   2. registrarGrupo() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php:19
+[13-Apr-2019 00:02:09 UTC] PHP Warning:  Missing argument 1 for validarGrupo(), called in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php on line 18 and defined in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php on line 79
+[13-Apr-2019 00:02:09 UTC] PHP Stack trace:
+[13-Apr-2019 00:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php:0
+[13-Apr-2019 00:02:09 UTC] PHP   2. validarGrupo() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php:18
+[13-Apr-2019 00:02:09 UTC] PHP Warning:  Missing argument 2 for validarGrupo(), called in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php on line 18 and defined in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php on line 79
+[13-Apr-2019 00:02:09 UTC] PHP Stack trace:
+[13-Apr-2019 00:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php:0
+[13-Apr-2019 00:02:09 UTC] PHP   2. validarGrupo() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php:18
+[13-Apr-2019 00:02:09 UTC] PHP Warning:  Missing argument 3 for validarGrupo(), called in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php on line 18 and defined in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php on line 79
+[13-Apr-2019 00:02:09 UTC] PHP Stack trace:
+[13-Apr-2019 00:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php:0
+[13-Apr-2019 00:02:09 UTC] PHP   2. validarGrupo() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php:18
+[13-Apr-2019 00:02:09 UTC] PHP Warning:  Missing argument 4 for validarGrupo(), called in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php on line 18 and defined in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php on line 79
+[13-Apr-2019 00:02:09 UTC] PHP Stack trace:
+[13-Apr-2019 00:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php:0
+[13-Apr-2019 00:02:09 UTC] PHP   2. validarGrupo() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php:18
+[13-Apr-2019 00:02:09 UTC] PHP Warning:  Missing argument 5 for validarGrupo(), called in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php on line 18 and defined in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/utils.php on line 79
+[13-Apr-2019 00:02:09 UTC] PHP Stack trace:
+[13-Apr-2019 00:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php:0
+[13-Apr-2019 00:02:09 UTC] PHP   2. validarGrupo() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/registrarGrupo.php:18

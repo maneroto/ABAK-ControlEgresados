@@ -7,11 +7,21 @@ CREATE TABLE Usuario
 	sexo varchar(10),
 	email varchar(100),
 	telefono varchar(13),
-	contrasena varchar(50),
 	CHECK (DATALENGTH(idusuario) >= 13),
 	CHECK (DATALENGTH(sexo) >= 8),
-	CHECK (DATALENGTH(telefono) >= 10),
-	CHECK (DATALENGTH(contrasena) >= 6)
+	CHECK (DATALENGTH(telefono) >= 10)
+);
+
+CREATE TABLE Alumno
+(
+	idusuario varchar(14) NOT NULL PRIMARY KEY,
+	fechanacimiento datetime,
+	telefonocasa varchar(13),
+	areainteres varchar(100),
+	encuesta tinyint(1),
+	FOREIGN KEY (idusuario) REFERENCES Usuario (idusuario),
+	CHECK (DATALENGTH(telefonocasa) >= 10),
+	CHECK (DATALENGTH(areainteres) >= 5)
 );
 
 CREATE TABLE Generacion
@@ -34,26 +44,12 @@ CREATE TABLE Grupo
 	CHECK (DATALENGTH(especialidad)>= 10)
 );
 
-CREATE TABLE Alumno
-(
-	idusuario varchar(14) NOT NULL PRIMARY KEY,
-	fechanacimiento datetime,
-	telefonocasa varchar(13),
-	areainteres varchar(100),
-	gradoacademicoobtenido varchar(50),
-	domicilio varchar(100),
-	idgrupo int,
-	FOREIGN KEY (idusuario) REFERENCES Usuario (idusuario),
-	FOREIGN KEY (idgrupo) REFERENCES Grupo (idgrupo),
-	CHECK (DATALENGTH(telefonocasa) >= 10),
-	CHECK (DATALENGTH(areainteres) >= 5)
-);
-
 CREATE TABLE Encuesta
 (
-	idencuesta varchar(20) NOT NULL PRIMARY KEY,
+	idencuesta char(8) NOT NULL PRIMARY KEY,
 	descripcion varchar(100),
-	activa tinyint(1)
+	activa tinyint(1),
+	archivo varchar(100)
 );
 
 CREATE TABLE Reporte
@@ -68,16 +64,16 @@ CREATE TABLE Reporte
 
 CREATE TABLE Estatus
 (
-	idestatus varchar(25) NOT NULL PRIMARY KEY,
+	idestatus int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	nombre varchar(25),
 	descripcion varchar(100),
 	CHECK (DATALENGTH(nombre) >= 5)
 );
 
 CREATE TABLE Ocupacion
 (
-	/*4 últimos dígitos de no de control + primeras 2 letras estatus + primera letra nombre + primera letra ap + primera letra am + primera letra nombre ocupacion*/
-	idocupacion varchar(10) NOT NULL PRIMARY KEY,
-	nombre varchar(50),
+	idocupacion int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	nombre varchar(35),
 	descripcion varchar(200),
 	areaocupacion varchar(100),
 	lugarocupacion varchar(100),
@@ -87,30 +83,33 @@ CREATE TABLE Ocupacion
 
 CREATE TABLE Rol
 (
-	idrol varchar(25) NOT NULL PRIMARY KEY,
+	idrol int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	nombrerol varchar(25),
 	descripcion varchar(100)
 );
 
 CREATE TABLE Permiso
 (
-	idpermiso varchar(25) NOT NULL PRIMARY KEY,
+	idpermiso int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	nombrepermiso varchar(25),
 	descripcion varchar(100)
 );
 
 CREATE TABLE AlumnoEncuesta
 (
 	idusuario varchar(14) NOT NULL,
-	idencuesta varchar(20) NOT NULL,
+	idencuesta char(8) NOT NULL,
 	fecha datetime,
 	PRIMARY KEY (idusuario, idencuesta),
 	FOREIGN KEY (idusuario) REFERENCES Usuario(idusuario),
-	FOREIGN KEY (idencuesta) REFERENCES Encuesta(idencuesta)
+	FOREIGN KEY (idencuesta) REFERENCES Encuesta(idencuesta),
+	CHECK (fechabaja > fechapublicacion)
 );
 
 CREATE TABLE AdministradorEncuesta
 (
 	idusuario varchar(14) NOT NULL,
-	idencuesta varchar(20) NOT NULL,
+	idencuesta char(8) NOT NULL,
 	fechapublicacion datetime,
 	fechabaja datetime,
 	PRIMARY KEY (idusuario, idencuesta),
@@ -121,27 +120,28 @@ CREATE TABLE AdministradorEncuesta
 CREATE TABLE AlumnoEstatus
 (
 	idusuario varchar(14) NOT NULL,
-	idestatus varchar(25) NOT NULL,
+	idestatus int NOT NULL,
+	fechaasignacion datetime,
 	PRIMARY KEY (idusuario, idestatus),
 	FOREIGN KEY (idusuario) REFERENCES Usuario(idusuario),
 	FOREIGN KEY (idestatus) REFERENCES Estatus(idestatus)
 );
 
-CREATE TABLE AlumnoEstatusOcupacion
+CREATE TABLE EstatusOcupacion
 (
-	idusuario varchar(14) NOT NULL,
-	idestatus varchar(25) NOT NULL,
-	idocupacion varchar(10) NOT NULL,
-	PRIMARY KEY (idusuario, idestatus, idocupacion),
-	FOREIGN KEY (idusuario) REFERENCES Usuario(idusuario),
+	idestatus int NOT NULL,
+	idocupacion int NOT NULL,
+	sueldo int,
+	PRIMARY KEY (idestatus, idocupacion),
 	FOREIGN KEY (idestatus) REFERENCES Estatus(idestatus),
 	FOREIGN KEY (idocupacion) REFERENCES Ocupacion(idocupacion)
 );
 
 CREATE TABLE RolPermiso
 (
-	idrol varchar(25) NOT NULL,
-	idpermiso varchar(25) NOT NULL,
+	idrol int NOT NULL,
+	idpermiso int NOT NULL,
+	fechaasignacion datetime,
 	PRIMARY KEY (idrol, idpermiso),
 	FOREIGN KEY (idrol) REFERENCES Rol(idrol),
 	FOREIGN KEY (idpermiso) REFERENCES Permiso(idpermiso)
@@ -150,7 +150,8 @@ CREATE TABLE RolPermiso
 CREATE TABLE UsuarioRol
 (
 	idusuario varchar(14) NOT NULL,
-	idrol varchar(25) NOT NULL,
+	idrol int NOT NULL,
+	fechaasignacion datetime,
 	PRIMARY KEY (idusuario, idrol),
 	FOREIGN KEY (idusuario) REFERENCES Usuario(idusuario),
 	FOREIGN KEY (idrol) REFERENCES Rol(idrol)

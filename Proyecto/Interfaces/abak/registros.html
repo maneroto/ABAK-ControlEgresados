@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 3.0
+================================================================================ -->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta Name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta Name="msapplication-tap-highlight" content="no">
+  <meta Name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
+  <meta Name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+  <title>Grupos - CBTis 145</title>
+
+  <!-- Favicons-->
+  <link rel="icon" href="images/favicon.ico" sizes="32x32">
+  <!-- Favicons-->
+  <link rel="apple-touch-icon-precomposed" href="images/favicon.ico">
+  <!-- For iPhone -->
+  <meta Name="msapplication-TileColor" content="#00bcd4">
+  <meta Name="msapplication-TileImage" content="images/favicon.ico">
+  <!-- For Windows Phone -->
+
+
+  <!-- CORE CSS-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <!-- Custome CSS-->
+  <link href="css/custom/custom-style.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+  <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+  <link href="js/plugins/prism/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <!--jsgrid css-->
+  <link href="js/plugins/jsgrid/css/jsgrid.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/jsgrid/css/jsgrid-theme.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+</head>
+
+<body>
+  <!-- Start Page Loading -->
+  <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+  </div>
+  <!-- End Page Loading -->
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- START HEADER -->
+  <header id="header" class="page-topbar">
+    <!-- start header nav-->
+    <div class="navbar-fixed">
+        <nav class="navbar-color">
+            <div class="nav-wrapper">
+                <ul class="left">
+                  <li><h1 class="logo-wrapper"><a href="index.html" class="brand-logo darken-1"><img src="images/cbtis-logo.png" alt="materialize logo"></a> <span class="logo-text">Materialize</span></h1></li>
+                </ul>
+                <div class="header-search-wrapper hide-on-med-and-down">
+                    <i class="mdi-action-search"></i>
+                    <input type="text" Name="Search" class="header-search-input z-depth-2" placeholder="Buscar..."/>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- end header nav-->
+</header>
+<!-- END HEADER -->
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+  <!-- START MAIN -->
+  <div id="main">
+    <!-- START WRAPPER -->
+    <div class="wrapper">
+
+      <!-- START LEFT SIDEBAR NAV-->
+      <aside id="left-sidebar-nav">
+        <ul id="slide-out" class="side-nav fixed leftside-navigation">
+        <li class="user-details cyan darken-2">
+        <div class="row">
+            <div class="col col s4 m4 l4">
+                <img src="images/avatar-2.jpeg" alt="" class="circle responsive-img valign profile-image">
+            </div>
+            <div class="col col s8 m8 l8">
+                <ul id="profile-dropdown" class="dropdown-content">
+                    <li><a href="#"><i class="mdi-action-face-unlock"></i> Profile</a>
+                    </li>
+                    <li><a href="#"><i class="mdi-action-settings"></i> Settings</a>
+                    </li>
+                    <li><a href="#"><i class="mdi-communication-live-help"></i> Help</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li><a href="#"><i class="mdi-action-lock-outline"></i> Lock</a>
+                    </li>
+                    <li><a href="#"><i class="mdi-hardware-keyboard-tab"></i> Logout</a>
+                    </li>
+                </ul>
+                <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#" data-activates="profile-dropdown">Alonso Oropeza<i class="mdi-navigation-arrow-drop-down right"></i></a>
+                <p class="user-roal">Administrator</p>
+            </div>
+        </div>
+    </li>
+        <li class="bold"><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-home"></i> Inicio</a>
+        </li>
+        <li class="bold"><a href="alumnos.html" class="waves-effect waves-cyan"><i class="mdi-action-accessibility"></i> Consultas</a>
+        </li>
+        <li class="bold active"><a href="grupos.html" class="waves-effect waves-cyan"><i class="mdi-action-account-child"></i> Grupos</a>
+        </li>
+        <li class="bold"><a href="encuestas.html" class="waves-effect waves-cyan"><i class="mdi-action-assignment"></i> Encuestas</a>
+        </li>
+    </ul>
+        <a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only cyan"><i class="mdi-navigation-menu"></i></a>
+    </aside>
+    <!-- END LEFT SIDEBAR NAV-->
+
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+      <!-- START CONTENT -->
+      <section id="content">
+
+        <!--breadcrumbs start-->
+        <div id="breadcrumbs-wrapper">
+            <!-- Search for small screen -->
+            <div class="header-search-wrapper grey hide-on-large-only">
+                <i class="mdi-action-search active"></i>
+                <input type="text" Name="Search" class="header-search-input z-depth-2" placeholder="Explore Materialize">
+            </div>
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <h5 class="breadcrumbs-title">Registro de Alumnos</h5>
+                <ol class="breadcrumbs">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="active">Registros</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--breadcrumbs end-->
+
+
+        <!--start container-->
+        <div class="container">
+          <div class="divider"></div>
+          <!--jsgrid-->
+
+            <!--Static Data-->
+            <!--Basic Scenario-->
+            <!--OData Service-->
+            <!--Sorting-->
+            <!--Loading Data by Page-->
+            <!--Custom View-->
+            <!--Buttons for adding-->
+            <div class="row right-align">
+                <div class="col s12 m8 l9">
+                  <a class="waves-effect waves-light  btn"><i class="mdi-content-add-circle-outline left"></i>Nuevo alumno</a>
+                  <a class="waves-effect waves-light  btn"><i class="mdi-social-group-add left"></i>Nuevo grupo</a>
+                </div>
+                <br>
+                <br>
+                <br>
+            <!--Finish Buttons for adding-->
+            <div class="row">
+              <div class="col s12 m4 l3">
+              </div>
+              <div class="col s12 m8 l9">
+                  <div id="jsGrid-custom"></div>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+            <!--Custom Row Renderer-->
+          </div>
+        <!-- Floating Action Button -->
+        <!-- Floating Action Button -->
+        </div>
+        <!--end container-->
+
+      </section>
+      <!-- END CONTENT -->
+
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+      <!-- START RIGHT SIDEBAR NAV-->
+      <!-- LEFT RIGHT SIDEBAR NAV-->
+
+    </div>
+    <!-- END WRAPPER -->
+
+  </div>
+  <!-- END MAIN -->
+
+
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+<!-- START FOOTER -->
+<footer class="page-footer">
+    <div class="footer-copyright">
+        <div class="container">
+            Copyright © 2019 <a class="grey-text text-lighten-4" href="https://github.com/maneroto/ABAK-ControlEgresados" target="_blank">A'Bak</a> All rights reserved.
+            <span class="right"> Developed by <a class="grey-text text-lighten-4" href="https://github.com/maneroto/ABAK-ControlEgresados">A'Bak</a></span>
+        </div>
+    </div>
+</footer>
+<!-- END FOOTER -->
+
+
+
+    <!-- ================================================
+    Scripts
+    ================================================ -->
+
+    <!-- jQuery Library -->
+    <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>
+    <!--angularjs-->
+    <script type="text/javascript" src="js/plugins/angular.min.js"></script>
+    <!--materialize js-->
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <!--prism -->
+    <script type="text/javascript" src="js/plugins/prism/prism.js"></script>
+    <!--scrollbar-->
+    <script type="text/javascript" src="js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <!-- chartist -->
+    <script type="text/javascript" src="js/plugins/chartist-js/chartist.min.js"></script>
+
+    <!--jsgrid-->
+    <script type="text/javascript" src="js/plugins/jsgrid/js/db.js"></script> <!--data-->
+    <script type="text/javascript" src="js/plugins/jsgrid/js/jsgrid.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jsgrid/js/jsgrid-script.js"></script>
+
+    <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <!--custom-script.js - Add your own theme custom JS-->
+    <script type="text/javascript" src="js/custom-script.js"></script>
+</body>
+
+</html>
