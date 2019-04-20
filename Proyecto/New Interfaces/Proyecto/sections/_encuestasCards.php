@@ -4,6 +4,17 @@
       <div class="section">
         <p class="caption">Panel de encuestas</p>
         <hr>
+        <div class="row">
+          <a href="#encuestaPop" class="waves-effect waves-light btn modal-trigger blue" name="action">Ver encuesta</a>
+        </div>
+        <div id="encuestaPop" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <?php include '../sections/_encuesta.php'; ?>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-red btn-flat">Salir</a>
+          </div>
+        </div>
         <div id="card-stats">
           <div class="row">
             <div class="col s12 m6 l4">
@@ -20,7 +31,7 @@
                     <p>
                       <div class="input-field col s12">
                         <i class="material-icons prefix">today</i>
-                        <input id="fecha_apertura_4" name="fecha_apertura_4" type="text" class="datepicker">
+                        <input id="fecha_apertura_4" name="fecha_apertura_4" type="text" class="datepicker" value="">
                         <label for="fecha_apertura_4">Fecha de apertura</label>
                       </div>
                       <div class="input-field col s12">
@@ -32,7 +43,7 @@
                         <div class="switch">
                           <label>
                             Cerrada
-                            <input type="checkbox">
+                            <input id="activarCuarto" type="checkbox">
                             <span class="lever"></span>
                             Abierta
                           </label>
@@ -69,7 +80,7 @@
                         <div class="switch">
                           <label>
                             Cerrada
-                            <input type="checkbox">
+                            <input id="activarSexto" type="checkbox">
                             <span class="lever"></span>
                             Abierta
                           </label>
@@ -106,7 +117,7 @@
                         <div class="switch">
                           <label>
                             Cerrada
-                            <input type="checkbox">
+                            <input id="activarEgresados" type="checkbox">
                             <span class="lever"></span>
                             Abierta
                           </label>
