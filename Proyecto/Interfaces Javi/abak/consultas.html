@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 3.0
+================================================================================ -->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta Name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta Name="msapplication-tap-highlight" content="no">
+  <meta Name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
+  <meta Name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+  <title>Consultas - CBTis 145</title>
+
+  <!-- Favicons-->
+  <link rel="icon" href="images/favicon.ico" sizes="32x32">
+  <!-- Favicons-->
+  <link rel="apple-touch-icon-precomposed" href="images/favicon.ico">
+  <!-- For iPhone -->
+  <meta Name="msapplication-TileColor" content="#00bcd4">
+  <meta Name="msapplication-TileImage" content="images/favicon.ico">
+  <!-- For Windows Phone -->
+
+
+  <!-- CORE CSS-->
+
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <!-- Custome CSS-->
+  <link href="css/custom/custom-style.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+
+
+
+  <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+  <link href="js/plugins/prism/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/data-tables/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+</head>
+
+<body>
+  <!-- Start Page Loading -->
+  <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+  </div>
+  <!-- End Page Loading -->
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- START HEADER -->
+  <header id="header" class="page-topbar">
+        <!-- start header nav-->
+        <div class="navbar-fixed">
+            <nav class="navbar-color">
+                <div class="nav-wrapper">
+                    <ul class="left">
+                      <li><h1 class="logo-wrapper"><a href="index.html" class="brand-logo darken-1"><img src="images/cbtis-logo.png" alt="materialize logo"></a> <span class="logo-text">Materialize</span></h1></li>
+                    </ul>
+                    <div class="header-search-wrapper hide-on-med-and-down">
+                        <i class="mdi-action-search"></i>
+                        <input type="text" Name="Search" class="header-search-input z-depth-2" placeholder="Buscar..."/>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- end header nav-->
+    </header>
+  <!-- END HEADER -->
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- START MAIN -->
+  <div id="main">
+    <!-- START WRAPPER -->
+    <div class="wrapper">
+
+      <!-- START LEFT SIDEBAR NAV-->
+      <aside id="left-sidebar-nav">
+            <ul id="slide-out" class="side-nav fixed leftside-navigation">
+            <li class="user-details cyan darken-2">
+            <div class="row">
+                <div class="col col s4 m4 l4">
+                    <img src="images/avatar-2.jpeg" alt="" class="circle responsive-img valign profile-image">
+                </div>
+                <div class="col col s8 m8 l8">
+                    <ul id="profile-dropdown" class="dropdown-content">
+                        <li><a href="#"><i class="mdi-action-face-unlock"></i> Profile</a>
+                        </li>
+                        <li><a href="#"><i class="mdi-action-settings"></i> Settings</a>
+                        </li>
+                        <li><a href="#"><i class="mdi-communication-live-help"></i> Help</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="mdi-action-lock-outline"></i> Lock</a>
+                        </li>
+                        <li><a href="#"><i class="mdi-hardware-keyboard-tab"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#" data-activates="profile-dropdown">Alonso Oropeza<i class="mdi-navigation-arrow-drop-down right"></i></a>
+                    <p class="user-roal">Administrator</p>
+                </div>
+            </div>
+        </li>
+            <li class="bold"><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-home"></i> Inicio</a>
+            </li>
+            <li class="bold active"><a href="alumnos.html" class="waves-effect waves-cyan"><i class="mdi-action-accessibility"></i> Consultas</a>
+            </li>
+            <li class="bold"><a href="grupos.html" class="waves-effect waves-cyan"><i class="mdi-action-account-child"></i> Grupos</a>
+            </li>
+            <li class="bold"><a href="encuestas.html" class="waves-effect waves-cyan"><i class="mdi-action-assignment"></i> Encuestas</a>
+            </li>
+        </ul>
+            <a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only cyan"><i class="mdi-navigation-menu"></i></a>
+        </aside>
+      <!-- END LEFT SIDEBAR NAV-->
+
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+      <!-- START CONTENT -->
+      <section id="content">
+
+        <!--breadcrumbs start-->
+        <div id="breadcrumbs-wrapper">
+            <!-- Search for small screen -->
+            <div class="header-search-wrapper grey hide-on-large-only">
+                <i class="mdi-action-search active"></i>
+                <input type="text" Name="Search" class="header-search-input z-depth-2" placeholder="Explore Materialize">
+            </div>
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <h5 class="breadcrumbs-title">Consulta de Alumnos</h5>
+                <ol class="breadcrumbs">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#" class="active">Consultas</a></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--breadcrumbs end-->
+
+        <!--start container-->
+        <div class="container">
+          <div class="section">
+
+            <p class="caption">Consultar información de los alumnos</p>
+            <div class="divider"></div>
+
+            <!--DataTables example-->
+            <div id="table-datatables">
+              <div class="row">
+                <div class="col s12 m8 l9">
+                  <table id="data-table-simple" class="responsive-table display" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Carrera</th>
+                            <th>Grado</th>
+                            <th>Ocupacion</th>
+                            <th>Edad</th>
+                            <th>Sexo</th>
+                        </tr>
+                    </thead>
+
+                    <tfoot>
+                        <tr>
+                          <th>Name</th>
+                          <th>Carrera</th>
+                          <th>Grado</th>
+                          <th>Ocupacion</th>
+                          <th>Edad</th>
+                          <th>Sexo</th>
+                        </tr>
+                    </tfoot>
+
+                    <tbody>
+                        <tr>
+                            <td>Alberto Boj Garcia</td>
+                            <td>Programacion</td>
+                            <td>4</td>
+                            <td>Estudiante</td>
+                            <td>16</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>Vicente Soler Martinez</td>
+                            <td>Administracion</td>
+                            <td>4</td>
+                            <td>Estudiante</td>
+                            <td>16</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>Yolanda Esteve Sanchez</td>
+                            <td>Programacion</td>
+                            <td>Egresado</td>
+                            <td>Emprendedora</td>
+                            <td>21</td>
+                            <td>Femenino</td>
+                        </tr>
+                        <tr>
+                            <td>Regina Palomo Dlugi</td>
+                            <td>Quimica</td>
+                            <td>Egresado</td>
+                            <td>Estudiante</td>
+                            <td>21</td>
+                            <td>Femenino</td>
+                        </tr>
+                        <tr>
+                            <td>Amparo Ramos Torres</td>
+                            <td>Quimica</td>
+                            <td>4</td>
+                            <td>Estudiante</td>
+                            <td>16</td>
+                            <td>Femenino</td>
+                        </tr>
+                        <tr>
+                            <td>Amparo Hernandez Ñiguez</td>
+                            <td>Administracion</td>
+                            <td>6</td>
+                            <td>Estudiante</td>
+                            <td>18</td>
+                            <td>Femenino</td>
+                        </tr>
+                        <tr>
+                            <td>Angel Aldeguer</td>
+                            <td>Programacion</td>
+                            <td>4</td>
+                            <td>Estudiante</td>
+                            <td>16</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>Angel Andreu Serrano</td>
+                            <td>Administracion</td>
+                            <td>4</td>
+                            <td>Estudiante</td>
+                            <td>16</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>Antonia Maria Ortiz Macia</td>
+                            <td>Programacion</td>
+                            <td>4</td>
+                            <td>Estudiante</td>
+                            <td>16</td>
+                            <td>Femenino</td>
+                        </tr>
+                        <tr>
+                            <td>Javier Torregrosa Manzanaro</td>
+                            <td>Programacion</td>
+                            <td>Egresado</td>
+                            <td>Programador</td>
+                            <td>23</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>Fernanda Fructuoso Grau</td>
+                            <td>Quimica</td>
+                            <td>4</td>
+                            <td>Estudiante</td>
+                            <td>16</td>
+                            <td>Femenino</td>
+                        </tr>
+                        <tr>
+                            <td>Irene Tejuelo Tormes</td>
+                            <td>Programacion</td>
+                            <td>6</td>
+                            <td>Estudiante</td>
+                            <td>17</td>
+                            <td>Femenino</td>
+                        </tr>
+                        <tr>
+                            <td>Alberto Boj Garcia</td>
+                            <td>Programacion</td>
+                            <td>6</td>
+                            <td>Estudiante</td>
+                            <td>18</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>Joaquin Saez Fulgencio</td>
+                            <td>Administracion</td>
+                            <td>Egresado</td>
+                            <td>Estudiante</td>
+                            <td>18</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>Jose Luis Sanchez Barredo</td>
+                            <td>Administracion</td>
+                            <td>4</td>
+                            <td>Estudiante</td>
+                            <td>17</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>Josefina Albaladejo</td>
+                            <td>Administracion</td>
+                            <td>Egresado</td>
+                            <td>Enfermera</td>
+                            <td>21</td>
+                            <td>Femenino</td>
+                        </tr>
+                        <tr>
+                            <td>Maria Angeles Pizana Martinez</td>
+                            <td>Programacion</td>
+                            <td>6</td>
+                            <td>Estudiante</td>
+                            <td>18</td>
+                            <td>Femenino</td>
+                        </tr>
+                        <tr>
+                            <td>Maria Jose Quesada</td>
+                            <td>Quimica</td>
+                            <td>4</td>
+                            <td>Estudiante</td>
+                            <td>16</td>
+                            <td>Femenino</td>
+                        </tr>
+                        <tr>
+                            <td>Pilar Galiana Torregrosa</td>
+                            <td>Administracion</td>
+                            <td>Egresado</td>
+                            <td>Administrador</td>
+                            <td>24</td>
+                            <td>Femenino</td>
+                        </tr>
+                        <tr>
+                            <td>Tomas Viuda Albacete</td>
+                            <td>Programacion</td>
+                            <td>Egresado</td>
+                            <td>Desempleado</td>
+                            <td>19</td>
+                            <td>Masculino</td>
+                        </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        <!-- Floating Action Button -->
+        </div>
+        <!--end container-->
+
+      </section>
+      <!-- END CONTENT -->
+
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+      <!-- START RIGHT SIDEBAR NAV-->
+      <aside id="right-sidebar-nav">
+        <ul id="chat-out" class="side-nav rightside-navigation">
+            <li class="li-hover">
+            <a href="#" data-activates="chat-out" class="chat-close-collapse right"><i class="mdi-navigation-close"></i></a>
+            <div id="right-search" class="row">
+                <form class="col s12">
+                    <div class="input-field">
+                        <i class="mdi-action-search prefix"></i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Filtrar</label>
+                    </div>
+                </form>
+            </div>
+            </li>
+        </ul>
+      </aside>
+      <!-- LEFT RIGHT SIDEBAR NAV-->
+
+    </div>
+    <!-- END WRAPPER -->
+
+  </div>
+  <!-- END MAIN -->
+
+
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- START FOOTER -->
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                Copyright © 2019 <a class="grey-text text-lighten-4" href="https://github.com/maneroto/ABAK-ControlEgresados" target="_blank">A'Bak</a> All rights reserved.
+                <span class="right"> Developed by <a class="grey-text text-lighten-4" href="https://github.com/maneroto/ABAK-ControlEgresados">A'Bak</a></span>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+
+
+    <!-- ================================================
+    Scripts
+    ================================================ -->
+
+    <!-- jQuery Library -->
+    <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>
+    <!--materialize js-->
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <!--prism-->
+    <script type="text/javascript" src="js/plugins/prism/prism.js"></script>
+    <!--scrollbar-->
+    <script type="text/javascript" src="js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <!-- data-tables -->
+    <script type="text/javascript" src="js/plugins/data-tables/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/plugins/data-tables/data-tables-script.js"></script>
+    <!-- chartist -->
+    <script type="text/javascript" src="js/plugins/chartist-js/chartist.min.js"></script>
+
+    <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <!--custom-script.js - Add your own theme custom JS-->
+    <script type="text/javascript" src="js/custom-script.js"></script>
+    <script type="text/javascript">
+        /*Show datos on click hide*/
+        $(document).ready(function(){
+            $(".dropdown-content.select-dropdown li").on( "click", function() {
+                var that = this;
+                setTimeout(function(){
+                if($(that).parent().hasClass('active')){
+                        $(that).parent().removeClass('active');
+                        $(that).parent().hide();
+                }
+                },100);
+            });
+        });
+    </script>
+</body>
+
+</html>
