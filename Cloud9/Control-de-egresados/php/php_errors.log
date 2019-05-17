@@ -1,0 +1,46 @@
+[02-May-2019 00:43:46 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/encuestas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/alumnos_php/loginVal.php on line 18
+[02-May-2019 00:43:46 UTC] PHP Stack trace:
+[02-May-2019 00:43:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/alumnos_php/loginVal.php:0
+[02-May-2019 00:43:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/encuestas.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/alumnos_php/loginVal.php on line 18
+[02-May-2019 00:43:46 UTC] PHP Stack trace:
+[02-May-2019 00:43:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/alumnos_php/loginVal.php:0
+[06-May-2019 02:19:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php on line 28
+[06-May-2019 02:19:07 UTC] PHP Stack trace:
+[06-May-2019 02:19:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:0
+[06-May-2019 02:19:07 UTC] PHP   2. modificar() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:14
+[06-May-2019 02:19:07 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:28
+[06-May-2019 02:19:07 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php on line 47
+[06-May-2019 02:19:07 UTC] PHP Stack trace:
+[06-May-2019 02:19:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:0
+[06-May-2019 02:19:07 UTC] PHP   2. modificar() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:14
+[06-May-2019 02:19:07 UTC] PHP   3. cerrar() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:30
+[06-May-2019 02:19:07 UTC] PHP   4. mysqli_close() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:47
+[06-May-2019 02:23:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php on line 28
+[06-May-2019 02:23:53 UTC] PHP Stack trace:
+[06-May-2019 02:23:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:0
+[06-May-2019 02:23:53 UTC] PHP   2. modificar() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:14
+[06-May-2019 02:23:53 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:28
+[06-May-2019 02:23:53 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php on line 47
+[06-May-2019 02:23:53 UTC] PHP Stack trace:
+[06-May-2019 02:23:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:0
+[06-May-2019 02:23:53 UTC] PHP   2. modificar() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:14
+[06-May-2019 02:23:53 UTC] PHP   3. cerrar() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:30
+[06-May-2019 02:23:53 UTC] PHP   4. mysqli_close() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:47
+[06-May-2019 02:26:15 UTC] PHP Parse error:  syntax error, unexpected 'DELETE' (T_STRING) in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php on line 27
+[06-May-2019 02:26:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php on line 22
+[06-May-2019 02:26:46 UTC] PHP Stack trace:
+[06-May-2019 02:26:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:0
+[06-May-2019 02:26:46 UTC] PHP   2. modificar() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:14
+[06-May-2019 02:26:46 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:22
+[06-May-2019 02:26:46 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php on line 41
+[06-May-2019 02:26:46 UTC] PHP Stack trace:
+[06-May-2019 02:26:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:0
+[06-May-2019 02:26:46 UTC] PHP   2. modificar() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:14
+[06-May-2019 02:26:46 UTC] PHP   3. cerrar() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:24
+[06-May-2019 02:26:46 UTC] PHP   4. mysqli_close() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/consultas/guardarCambios.php:41
+[08-May-2019 05:47:38 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/encuestas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/alumnos_php/loginVal.php on line 18
+[08-May-2019 05:47:38 UTC] PHP Stack trace:
+[08-May-2019 05:47:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/alumnos_php/loginVal.php:0
+[08-May-2019 05:47:38 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/encuestas.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/alumnos_php/loginVal.php on line 18
+[08-May-2019 05:47:38 UTC] PHP Stack trace:
+[08-May-2019 05:47:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/php/alumnos_php/loginVal.php:0
