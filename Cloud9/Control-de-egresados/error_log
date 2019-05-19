@@ -1,6 +1,0 @@
-[16-May-2019 07:06:32 UTC] PHP Warning:  include(sections/_login): failed to open stream: No such file or directory in /home1/cbtisco1/public_html/Control-de-egresados/index.php on line 34
-[16-May-2019 07:06:32 UTC] PHP Warning:  include(sections/_login): failed to open stream: No such file or directory in /home1/cbtisco1/public_html/Control-de-egresados/index.php on line 34
-[16-May-2019 07:06:32 UTC] PHP Warning:  include(): Failed opening 'sections/_login' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home1/cbtisco1/public_html/Control-de-egresados/index.php on line 34
-[16-May-2019 07:07:30 UTC] PHP Warning:  include(sections/_login): failed to open stream: No such file or directory in /home1/cbtisco1/public_html/Control-de-egresados/index.php on line 34
-[16-May-2019 07:07:30 UTC] PHP Warning:  include(sections/_login): failed to open stream: No such file or directory in /home1/cbtisco1/public_html/Control-de-egresados/index.php on line 34
-[16-May-2019 07:07:30 UTC] PHP Warning:  include(): Failed opening 'sections/_login' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home1/cbtisco1/public_html/Control-de-egresados/index.php on line 34
