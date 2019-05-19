@@ -1,0 +1,5 @@
+[22-Apr-2019 02:15:45 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'controlegresado' in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/noborrar/noborrar2/connectDb.php on line 7
+[22-Apr-2019 02:15:45 UTC] PHP Stack trace:
+[22-Apr-2019 02:15:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/noborrar/noborrar2/list.php:0
+[22-Apr-2019 02:15:45 UTC] PHP   2. include() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/noborrar/noborrar2/list.php:3
+[22-Apr-2019 02:15:45 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/noborrar/noborrar2/connectDb.php:7

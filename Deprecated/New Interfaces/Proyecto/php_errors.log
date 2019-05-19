@@ -1,0 +1,120 @@
+[22-Apr-2019 19:23:46 UTC] PHP Warning:  include(../sections/_connectDb.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 1
+[22-Apr-2019 19:23:46 UTC] PHP Stack trace:
+[22-Apr-2019 19:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:23:46 UTC] PHP Warning:  include(): Failed opening '../sections/_connectDb.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 1
+[22-Apr-2019 19:23:46 UTC] PHP Stack trace:
+[22-Apr-2019 19:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:23:46 UTC] PHP Warning:  include(../sections/_headerConsultas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 2
+[22-Apr-2019 19:23:46 UTC] PHP Stack trace:
+[22-Apr-2019 19:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:23:46 UTC] PHP Warning:  include(): Failed opening '../sections/_headerConsultas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 2
+[22-Apr-2019 19:23:46 UTC] PHP Stack trace:
+[22-Apr-2019 19:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:23:46 UTC] PHP Warning:  include(../sections/_navConsultas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 4
+[22-Apr-2019 19:23:46 UTC] PHP Stack trace:
+[22-Apr-2019 19:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:23:46 UTC] PHP Warning:  include(): Failed opening '../sections/_navConsultas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 4
+[22-Apr-2019 19:23:46 UTC] PHP Stack trace:
+[22-Apr-2019 19:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:23:46 UTC] PHP Warning:  include(../sections/_tableConsultasB.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 5
+[22-Apr-2019 19:23:46 UTC] PHP Stack trace:
+[22-Apr-2019 19:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:23:46 UTC] PHP Warning:  include(): Failed opening '../sections/_tableConsultasB.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 5
+[22-Apr-2019 19:23:46 UTC] PHP Stack trace:
+[22-Apr-2019 19:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:24:45 UTC] PHP Warning:  include(../sections/_connectDb.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 1
+[22-Apr-2019 19:24:45 UTC] PHP Stack trace:
+[22-Apr-2019 19:24:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:24:45 UTC] PHP Warning:  include(): Failed opening '../sections/_connectDb.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 1
+[22-Apr-2019 19:24:45 UTC] PHP Stack trace:
+[22-Apr-2019 19:24:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:24:45 UTC] PHP Warning:  include(../sections/_headerConsultas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 2
+[22-Apr-2019 19:24:45 UTC] PHP Stack trace:
+[22-Apr-2019 19:24:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:24:45 UTC] PHP Warning:  include(): Failed opening '../sections/_headerConsultas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 2
+[22-Apr-2019 19:24:45 UTC] PHP Stack trace:
+[22-Apr-2019 19:24:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:24:45 UTC] PHP Warning:  include(../sections/_navConsultas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 4
+[22-Apr-2019 19:24:45 UTC] PHP Stack trace:
+[22-Apr-2019 19:24:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:24:45 UTC] PHP Warning:  include(): Failed opening '../sections/_navConsultas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 4
+[22-Apr-2019 19:24:45 UTC] PHP Stack trace:
+[22-Apr-2019 19:24:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:24:45 UTC] PHP Warning:  include(../sections/_tableConsultasB.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 5
+[22-Apr-2019 19:24:45 UTC] PHP Stack trace:
+[22-Apr-2019 19:24:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:24:45 UTC] PHP Warning:  include(): Failed opening '../sections/_tableConsultasB.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 5
+[22-Apr-2019 19:24:45 UTC] PHP Stack trace:
+[22-Apr-2019 19:24:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:40 UTC] PHP Warning:  include(../sections/_connectDb.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 1
+[22-Apr-2019 19:31:40 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:40 UTC] PHP Warning:  include(): Failed opening '../sections/_connectDb.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 1
+[22-Apr-2019 19:31:40 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:40 UTC] PHP Warning:  include(../sections/_headerConsultas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 2
+[22-Apr-2019 19:31:40 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:40 UTC] PHP Warning:  include(): Failed opening '../sections/_headerConsultas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 2
+[22-Apr-2019 19:31:40 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:40 UTC] PHP Warning:  include(../sections/_navConsultas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 4
+[22-Apr-2019 19:31:40 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:40 UTC] PHP Warning:  include(): Failed opening '../sections/_navConsultas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 4
+[22-Apr-2019 19:31:40 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:40 UTC] PHP Warning:  include(../sections/_tableConsultasB.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 5
+[22-Apr-2019 19:31:40 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:40 UTC] PHP Warning:  include(): Failed opening '../sections/_tableConsultasB.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 5
+[22-Apr-2019 19:31:40 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:44 UTC] PHP Warning:  include(../sections/_connectDb.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 1
+[22-Apr-2019 19:31:44 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:44 UTC] PHP Warning:  include(): Failed opening '../sections/_connectDb.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 1
+[22-Apr-2019 19:31:44 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:44 UTC] PHP Warning:  include(../sections/_headerConsultas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 2
+[22-Apr-2019 19:31:44 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:44 UTC] PHP Warning:  include(): Failed opening '../sections/_headerConsultas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 2
+[22-Apr-2019 19:31:44 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:44 UTC] PHP Warning:  include(../sections/_navConsultas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 4
+[22-Apr-2019 19:31:44 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:44 UTC] PHP Warning:  include(): Failed opening '../sections/_navConsultas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 4
+[22-Apr-2019 19:31:44 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:44 UTC] PHP Warning:  include(../sections/_tableConsultasB.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 5
+[22-Apr-2019 19:31:44 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:31:44 UTC] PHP Warning:  include(): Failed opening '../sections/_tableConsultasB.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 5
+[22-Apr-2019 19:31:44 UTC] PHP Stack trace:
+[22-Apr-2019 19:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:32:12 UTC] PHP Warning:  include(../sections/_connectDb.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 1
+[22-Apr-2019 19:32:12 UTC] PHP Stack trace:
+[22-Apr-2019 19:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:32:12 UTC] PHP Warning:  include(): Failed opening '../sections/_connectDb.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 1
+[22-Apr-2019 19:32:12 UTC] PHP Stack trace:
+[22-Apr-2019 19:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:32:12 UTC] PHP Warning:  include(../sections/_headerConsultas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 2
+[22-Apr-2019 19:32:12 UTC] PHP Stack trace:
+[22-Apr-2019 19:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:32:12 UTC] PHP Warning:  include(): Failed opening '../sections/_headerConsultas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 2
+[22-Apr-2019 19:32:12 UTC] PHP Stack trace:
+[22-Apr-2019 19:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:32:12 UTC] PHP Warning:  include(../sections/_navConsultas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 4
+[22-Apr-2019 19:32:12 UTC] PHP Stack trace:
+[22-Apr-2019 19:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:32:12 UTC] PHP Warning:  include(): Failed opening '../sections/_navConsultas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 4
+[22-Apr-2019 19:32:12 UTC] PHP Stack trace:
+[22-Apr-2019 19:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:32:12 UTC] PHP Warning:  include(../sections/_tableConsultasB.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 5
+[22-Apr-2019 19:32:12 UTC] PHP Stack trace:
+[22-Apr-2019 19:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0
+[22-Apr-2019 19:32:12 UTC] PHP Warning:  include(): Failed opening '../sections/_tableConsultasB.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php on line 5
+[22-Apr-2019 19:32:12 UTC] PHP Stack trace:
+[22-Apr-2019 19:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW REPO/ABAK-ControlEgresados/Proyecto/New Interfaces/Proyecto/views/consultas.php:0

@@ -1,0 +1,4 @@
+[16-May-2019 08:53:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'a01703171'@'localhost' (using password: NO) in /home1/cbtisco1/public_html/Control-de-egresados/php/consultas/connectDb.php on line 7
+[16-May-2019 08:53:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'a01703171'@'localhost' (using password: NO) in /home1/cbtisco1/public_html/Control-de-egresados/php/consultas/connectDb.php on line 7
+[16-May-2019 08:54:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'a01703171'@'localhost' (using password: NO) in /home1/cbtisco1/public_html/Control-de-egresados/php/consultas/connectDb.php on line 7
+[16-May-2019 08:54:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'a01703171'@'localhost' (using password: NO) in /home1/cbtisco1/public_html/Control-de-egresados/php/consultas/connectDb.php on line 7
